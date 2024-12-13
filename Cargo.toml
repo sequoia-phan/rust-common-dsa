@@ -1,0 +1,10 @@
+[package]
+description = "A pure rust reimplement dsa from scratch"
+edition = "2021"
+name = "rust-dsa"
+version = "0.1.0"
+
+[dependencies]
+
+[workspace]
+members = ['array_list', "linked_list", "stack-rs", "test", "vector-unprotected"]
