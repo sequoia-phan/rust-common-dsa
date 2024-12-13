@@ -120,8 +120,6 @@ where
 
 #[cfg(test)]
 mod tests {
-    use std::ptr::NonNull;
-
     use super::*;
 
     #[test]
